@@ -1,0 +1,6 @@
+services:
+  webapplication_zerado:
+    image: ${DOCKER_REGISTRY-}webapplicationzerado
+    build:
+      context: .
+      dockerfile: WebApplication_zerado/Dockerfile
